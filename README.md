@@ -2,7 +2,7 @@
 
 Windows FAR prefs
 
-On:
+**On**
 - autochange folder
 - autodetect viewed/edited files encoding
 - autoindent
@@ -12,7 +12,7 @@ On:
 - clock
 - total progress indicator
 
-Off:
+**Off**
 - automount CDs
 - history saving
 - autocomplete
@@ -20,11 +20,12 @@ Off:
 - column titles and sort mode letter
 - Del removes blocks
 
-Color:
-Panels: light-black
-Dialog: green
-Error:  light-blue
-Editor: white
+**Region** | Color
+-|-
+Panels  | light-black
+Dialog  | green
+Error   | light-blue
+Editor  | white
 
 Macro:
 Del=F8, Spc=Ins, AltBS undo, BS=up, F9table, AltC=toggle colorer, AltQ=paste and one line down
