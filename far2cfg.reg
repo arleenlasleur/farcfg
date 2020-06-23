@@ -13,7 +13,7 @@ REGEDIT4
 "CPMenuMode"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\Far2\Colors]
-"CurrentPalette"=hex:2f,e0,2e,ec,2f,2e,2f,e0,2e,ec,80,8e,17,8e,70,7c,80,8a,8a,\
+"CurrentPalette"=hex:2f,e0,2e,ec,2f,2e,2f,e0,2e,ec,80,8e,17,8e,70,7c,80,8f,8a,\
   80,8e,2f,2e,2f,2f,2e,70,2e,70,2e,7c,70,0f,7e,0e,9f,9e,9f,9f,9e,30,9e,70,9d,\
   75,07,2e,07,07,80,f0,70,1f,f0,70,2f,70,7e,79,0b,70,70,8a,73,80,70,87,0a,0f,\
   70,f9,00,70,2f,f1,07,28,78,78,97,87,87,28,2e,1e,70,70,0f,87,70,0f,7e,0e,70,\
