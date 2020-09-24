@@ -28,4 +28,4 @@ Error   | light-blue
 Editor  | white
 
 Macro:
-Del=F8, Spc=Ins, AltBS undo, BS=up, F9table, AltC=toggle colorer, AltQ=paste and one line down
+Del=F8, Spc=Ins, AltBS undo dirchange, BS=up, F9table, AltC toggle colorer, AltQ paste and one line down
