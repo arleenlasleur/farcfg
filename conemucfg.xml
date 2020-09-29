@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2020-08-26 14:32:40" build="200713">
+		<key name=".Vanilla" modified="2020-09-27 08:11:40" build="200713">
 			<value name="Language" type="string" data="en"/>
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
@@ -49,7 +49,7 @@
 			<value name="ClipboardDeleteLeftWord" type="hex" data="02"/>
 			<value name="TrueColorerSupport" type="hex" data="01"/>
 			<value name="VividColors" type="hex" data="01"/>
-			<value name="FadeInactive" type="hex" data="01"/>
+			<value name="FadeInactive" type="hex" data="00"/>
 			<value name="FadeInactiveLow" type="hex" data="00"/>
 			<value name="FadeInactiveHigh" type="hex" data="D0"/>
 			<value name="ConVisible" type="hex" data="00"/>
@@ -123,14 +123,14 @@
 			<value name="Monospace" type="hex" data="01"/>
 			<value name="CompressLongStrings" type="hex" data="01"/>
 			<value name="BackGround Image show" type="hex" data="00"/>
-			<value name="BackGround Image" type="string" data=""/>
+			<value name="BackGround Image" type="string" data="E:\hist\15\Image00023.jpg"/>
 			<value name="bgImageDarker" type="hex" data="D2"/>
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
 			<value name="bgOperation" type="hex" data="07"/>
 			<value name="bgPluginAllowed" type="hex" data="01"/>
-			<value name="AlphaValue" type="hex" data="E0"/>
+			<value name="AlphaValue" type="hex" data="C4"/>
 			<value name="AlphaValueSeparate" type="hex" data="00"/>
-			<value name="AlphaValueInactive" type="hex" data="F6"/>
+			<value name="AlphaValueInactive" type="hex" data="F4"/>
 			<value name="UserScreenTransparent" type="hex" data="01"/>
 			<value name="ColorKeyTransparent" type="hex" data="00"/>
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
@@ -142,10 +142,10 @@
 			<value name="ConWnd X" type="long" data="0"/>
 			<value name="ConWnd Y" type="long" data="0"/>
 			<value name="LastMonitor" type="string" data="0,0,1920,1080"/>
-			<value name="ConWnd Width" type="dword" data="00000088"/>
-			<value name="ConWnd Height" type="dword" data="00000024"/>
+			<value name="ConWnd Width" type="dword" data="00000050"/>
+			<value name="ConWnd Height" type="dword" data="00000019"/>
 			<value name="16bit Height" type="ulong" data="0"/>
-			<value name="QuakeStyle" type="hex" data="01"/>
+			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
 			<value name="RestoreInactive" type="hex" data="00"/>
 			<value name="QuakeAnimation" type="ulong" data="0"/>
@@ -406,7 +406,7 @@
 			<value name="Update.DownloadPath" type="string" data="%TEMP%\ConEmu"/>
 			<value name="Update.LeavePackages" type="hex" data="00"/>
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
-			<key name="HotKeys" modified="2020-08-26 14:32:40" build="200713">
+			<key name="HotKeys" modified="2020-09-27 08:11:40" build="200713">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="000000a2"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
@@ -602,9 +602,9 @@
 				<value name="DndRKey" type="hex" data="A2"/>
 				<value name="WndDragKey" type="dword" data="00121101"/>
 			</key>
-			<key name="Tasks" modified="2020-08-26 14:32:40" build="200713">
+			<key name="Tasks" modified="2020-09-27 08:11:40" build="200713">
 				<value name="Count" type="long" data="10"/>
-				<key name="Task1" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Task1" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Far}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -613,7 +613,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='set "FARHOME=" &amp; "%ConEmuDir%\..\Far2\far.exe" /w /p"%ConEmuDir%\Plugins\ConEmu;%FARHOME%\Plugins;%FARPROFILE%\Plugins"'/>
 				</key>
-				<key name="Task2" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Task2" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Shells::cmd}"/>
 					<value name="Flags" type="dword" data="00000002"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -622,7 +622,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd"'/>
 				</key>
-				<key name="Task3" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Task3" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Shells::cmd (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -631,7 +631,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd" -new_console:a'/>
 				</key>
-				<key name="Task4" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Task4" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Shells::cmd-32}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -640,7 +640,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='"%windir%\syswow64\cmd.exe" /k "%ConEmuBaseDir%\CmdInit.cmd"'/>
 				</key>
-				<key name="Task5" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Task5" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Shells::cmd 64/32}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -650,7 +650,7 @@
 					<value name="Cmd1" type="string" data='&gt; "%windir%\system32\cmd.exe" /k ""%ConEmuBaseDir%\CmdInit.cmd" &amp; echo This is Native cmd.exe"'/>
 					<value name="Cmd2" type="string" data='"%windir%\syswow64\cmd.exe" /k ""%ConEmuBaseDir%\CmdInit.cmd" &amp; echo This is 32 bit cmd.exe -new_console:s50V"'/>
 				</key>
-				<key name="Task6" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Task6" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Shells::PowerShell}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -659,7 +659,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data="powershell.exe"/>
 				</key>
-				<key name="Task7" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Task7" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Shells::PowerShell (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -668,7 +668,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data="powershell.exe -new_console:a"/>
 				</key>
-				<key name="Task8" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Task8" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Bash::Git bash}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -677,7 +677,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='set "PATH=%ConEmuDir%\..\Git\usr\bin;%PATH%" &amp; %ConEmuDir%\..\Git\git-cmd.exe --no-cd --command=%ConEmuBaseDirShort%\conemu-msys2-64.exe /usr/bin/bash.exe -l -i -new_console:p'/>
 				</key>
-				<key name="Task9" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Task9" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Helper::Show ANSI colors}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -686,7 +686,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd.exe /k type "%ConEmuBaseDir%\Addons\AnsiColors16t.ans" -cur_console:n'/>
 				</key>
-				<key name="Task10" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Task10" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Tools::Chocolatey (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -696,12 +696,12 @@
 					<value name="Cmd1" type="string" data='*cmd.exe /k Title Chocolatey &amp; "%ConEmuBaseDir%\Addons\ChocolateyAbout.cmd"'/>
 				</key>
 			</key>
-			<key name="Apps" modified="2020-08-26 14:32:40" build="200713">
+			<key name="Apps" modified="2020-09-27 08:11:40" build="200713">
 				<value name="Count" type="long" data="0"/>
 			</key>
-			<key name="Colors" modified="2020-08-26 14:32:40" build="200713">
+			<key name="Colors" modified="2020-09-27 08:11:40" build="200713">
 				<value name="Count" type="long" data="1"/>
-				<key name="Palette1" modified="2020-08-26 14:32:40" build="200713">
+				<key name="Palette1" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="my"/>
 					<value name="TextColorIdx" type="hex" data="10"/>
 					<value name="BackColorIdx" type="hex" data="10"/>

@@ -2,17 +2,6 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\Far2]
 
-[HKEY_CURRENT_USER\Software\Far2\Associations\Type0]
-"Mask"="*.css,*.js"
-"Description"="Clientside web injection"
-"Execute"="type !.!|clip"
-"AltExec"=""
-"View"=""
-"AltView"=""
-"Edit"=""
-"AltEdit"=""
-"State"=dword:00000001
-
 [HKEY_CURRENT_USER\Software\Far2\Cmdline]
 "UsePromptFormat"=dword:00000000
 "PromptFormat"="$p$g"
@@ -234,6 +223,17 @@ REGEDIT4
 "ShowList"=dword:00000001
 "ModalList"=dword:00000000
 "Append"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Far2\Associations\Type0]
+"Mask"="*.css,*.js"
+"Description"="Clientside web injection"
+"Execute"="type !.!|clip"
+"AltExec"=""
+"View"=""
+"AltView"=""
+"Edit"=""
+"AltEdit"=""
+"State"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\Far2\KeyMacros]
 
