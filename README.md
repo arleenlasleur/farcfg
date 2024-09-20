@@ -29,3 +29,5 @@ Editor  | white
 
 Macro:
 Del=F8, Spc=Ins, AltBS undo dirchange, BS=up, F9table, AltC toggle colorer, AltQ paste and one line down, CtrlShiftX cut cmdline while panels open.
+
+Added Colorer cpp mask to .uc files (for Unreal)
