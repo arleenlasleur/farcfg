@@ -34,7 +34,7 @@
 			<value name="ExtendFontNormalIdx" type="hex" data="01"/>
 			<value name="ExtendFontBoldIdx" type="hex" data="0C"/>
 			<value name="ExtendFontItalicIdx" type="hex" data="0D"/>
-			<value name="CursorTypeActive" type="dword" data="00033cc1"/>
+                        <value name="CursorTypeActive" type="dword" data="00063cc2"/>
 			<value name="CursorTypeInactive" type="dword" data="00823283"/>
 			<value name="ClipboardDetectLineEnd" type="hex" data="01"/>
 			<value name="ClipboardBashMargin" type="hex" data="00"/>
@@ -126,12 +126,12 @@
 			<value name="BackGround Image" type="string" data="E:\hist\15\Image00023.jpg"/>
 			<value name="bgImageDarker" type="hex" data="D2"/>
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
-			<value name="bgOperation" type="hex" data="07"/>
-			<value name="bgPluginAllowed" type="hex" data="01"/>
-			<value name="AlphaValue" type="hex" data="C4"/>
+			<value name="bgOperation" type="hex" data="08"/>
+			<value name="bgPluginAllowed" type="hex" data="00"/>
+			<value name="AlphaValue" type="hex" data="FF"/>
 			<value name="AlphaValueSeparate" type="hex" data="00"/>
-			<value name="AlphaValueInactive" type="hex" data="F4"/>
-			<value name="UserScreenTransparent" type="hex" data="01"/>
+			<value name="AlphaValueInactive" type="hex" data="D7"/>
+			<value name="UserScreenTransparent" type="hex" data="00"/>
 			<value name="ColorKeyTransparent" type="hex" data="00"/>
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
