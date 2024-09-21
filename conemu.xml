@@ -611,7 +611,8 @@
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='set "FARHOME=" &amp; "%ConEmuDir%\..\Far2\far.exe" /w /p"%ConEmuDir%\Plugins\ConEmu;%FARHOME%\Plugins;%FARPROFILE%\Plugins"'/>
+                                        <!-- value name="Cmd1" type="string" data='set "FARHOME=" &amp; "%ConEmuDir%\..\Far2\far.exe" /w /p"%ConEmuDir%\Plugins\ConEmu;%FARHOME%\Plugins;%FARPROFILE%\Plugins"'/ -->
+                                        <value name="Cmd1" type="string" data='set "FARHOME=" &amp; "C:\tools\FAR\far.exe" /w /p"%ConEmuDir%\Plugins\ConEmu;%FARHOME%\Plugins;%FARPROFILE%\Plugins"'/>
 				</key>
 				<key name="Task2" modified="2020-09-27 08:11:40" build="200713">
 					<value name="Name" type="string" data="{Shells::cmd}"/>
